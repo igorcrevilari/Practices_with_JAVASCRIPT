@@ -31,7 +31,7 @@ function checkInputs() {
   }
 
   if (passwordValue === "") {
-    setErrorFor(password, "Password is mandatory");
+    setErrorFor(password, "Password is mandatory...");
   } else if (passwordValue.length < 7) {
     setErrorFor(password, "Password needs a minimum of 7 characters...");
   } else {
