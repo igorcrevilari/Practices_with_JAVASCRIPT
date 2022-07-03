@@ -17,15 +17,15 @@ function checkInputs() {
   const passwordConfirmationValue = passwordConfirmation.value;
 
   if (usernameValue === "") {
-    setErrorFor(username, "Username is mandatory.");
+    setErrorFor(username, "Username is mandatory...");
   } else {
     setSuccessFor(username);
   }
 
   if (emailValue === "") {
-    setErrorFor(email, "Email is mandatory.");
+    setErrorFor(email, "Email is mandatory...");
   } else if (!checkEmail(emailValue)) {
-    setErrorFor(email, "Please, insert a valid email.");
+    setErrorFor(email, "Please, insert a valid email...");
   } else {
     setSuccessFor(email);
   }
@@ -33,15 +33,15 @@ function checkInputs() {
   if (passwordValue === "") {
     setErrorFor(password, "Password is mandatory");
   } else if (passwordValue.length < 7) {
-    setErrorFor(password, "Password needs a minimum of 7 characters.");
+    setErrorFor(password, "Password needs a minimum of 7 characters...");
   } else {
     setSuccessFor(password);
   }
 
   if (passwordConfirmationValue === "") {
-    setErrorFor(passwordConfirmation, "Please, confirm your password..");
+    setErrorFor(passwordConfirmation, "Please, confirm your password...");
   } else if (passwordConfirmationValue !== passwordValue) {
-    setErrorFor(passwordConfirmation, "Passwords do not match.");
+    setErrorFor(passwordConfirmation, "Passwords do not match...");
   } else {
     setSuccessFor(passwordConfirmation);
   }
@@ -53,7 +53,7 @@ function checkInputs() {
   });
 
   if (formIsValid) {
-    console.log("O formulário está 100% válido!");
+    console.log("The form is 100%!");
   }
 }
 
