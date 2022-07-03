@@ -2,7 +2,7 @@
 
 Here are my first contacts with JavaScript, where I write following courses and videos.<br><br>
 I had initial steps in my college, but I needed to do more research to acquire more practical knowledge.<br><br>
-With a situation, I've created new project that add to my knowledge. Thus creating forms, different ideas and a lot of pratic.
+With a situation, I've created new projects that add to my knowledge. Thus creating forms, different ideas and a lot of pratic.
 <br><br>
 
 <hr>
