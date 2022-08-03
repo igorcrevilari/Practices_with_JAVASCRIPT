@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "JavaScript",
+		"path": "..\\..\\vscode\\ANOTAÇOES\\JavaScript"
+	},
+	{
+		"name": "formulario-login-discord-master",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "formulario-login-discord-master"
+  }
+}
